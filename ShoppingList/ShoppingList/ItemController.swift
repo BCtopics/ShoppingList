@@ -18,7 +18,7 @@ class ItemController {
     //MARK: - Internal Properties
     
     var items: [Item] {
-        return fetchTasks()
+        return fetchTasks() //MARK: - Question 2... I know we could omit these somehow But i can't remember how. Could you                                  explain that again? Thanks! Technically I think this will work because we are sorting them, but in general I think we're only suppose to use the one place to get information right?
     }
     
     //MARK: - Create, Update, Delete, Toggle, Save, Fetch

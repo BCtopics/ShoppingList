@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ShoppingListTableViewController: UITableViewController, ItemTableViewCellDelegate {
 
