@@ -15,6 +15,12 @@ class ItemController {
     
     static let shared = ItemController()
     
+    //MARK: - Internal Properties
+    
+    var items: [Item] {
+        return fetchTasks()
+    }
+    
     //MARK: - Create, Update, Delete, Toggle, Save, Fetch
     
     // Create
